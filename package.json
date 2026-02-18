@@ -1,0 +1,23 @@
+{
+  "name": "knowmatic",
+  "version": "1.0.0",
+  "description": "Local prompt classification CLI — route prompts to the right model tier using on-device ONNX models",
+  "type": "module",
+  "bin": {
+    "knowmatic": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "onnxruntime-node": "^1.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

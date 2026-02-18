@@ -1,0 +1,15 @@
+{
+  "num_classes": 3,
+  "label_map": {
+    "Easy": 0,
+    "Medium": 1,
+    "Hard": 2
+  },
+  "id_to_label": {
+    "0": "Easy",
+    "1": "Medium",
+    "2": "Hard"
+  },
+  "max_length": 512,
+  "vocab_size": 32000
+}

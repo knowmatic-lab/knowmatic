@@ -1,0 +1,22 @@
+{
+  "model_type": "autocomplete",
+  "vocab_size": 16000,
+  "max_length": 512,
+  "n_embd": 384,
+  "n_head": 6,
+  "n_layer": 8,
+  "generation_defaults": {
+    "max_new_tokens": 15,
+    "temperature": 0.2,
+    "top_k": 5,
+    "stop_tokens": [
+      "<eos>"
+    ]
+  },
+  "special_tokens": {
+    "pad": 0,
+    "unk": 1,
+    "bos": 2,
+    "eos": 3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "num_classes": 3,
+  "label_map": {
+    "low": 0,
+    "medium": 1,
+    "high": 2
+  },
+  "id_to_label": {
+    "0": "low",
+    "1": "medium",
+    "2": "high"
+  },
+  "max_length": 512,
+  "vocab_size": 32000
+}
