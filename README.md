@@ -1,5 +1,7 @@
 # knowmatic
 
+https://github.com/user-attachments/assets/7f721cf5-b935-4a93-8c13-73a980b47bd0
+
 A local prompt classification CLI that routes prompts to the appropriate Claude model tier (Haiku, Sonnet, or Opus) using on-device ONNX models. Optimize API costs by intelligently selecting the right model based on prompt complexity and reasoning effort.
 
 ## Features
