@@ -1,6 +1,6 @@
 {
   "name": "knowmatic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Local prompt classification CLI — route prompts to the right model tier using on-device ONNX models",
   "type": "module",
   "main": "./dist/lib.js",
