@@ -1,17 +1,14 @@
 #!/usr/bin/env node
 
-import { resolve, dirname } from "node:path";
-import { fileURLToPath } from "node:url";
+import { resolve } from "node:path";
 import chalk from "chalk";
 
+import { MODELS_DIR } from "./paths.js";
 import { Tokenizer } from "./tokenizer.js";
 import { InferenceEngine } from "./inference.js";
 import { AutocompleteEngine } from "./autocomplete.js";
 import { containsCode, extractCode } from "./codeDetection.js";
 import { renderScreen, type ClassificationResults } from "./ui.js";
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const MODELS_DIR = resolve(__dirname, "..", "models");
 
 // ── State ──────────────────────────────────────────────────────────
 
